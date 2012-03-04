@@ -1,0 +1,16 @@
+Aufbereitung:
+ -wie man lustig ist, aber grafisch
+	Bedienung - Usability		-Thomas
+	Kampfsystem			-Helge
+	Multiplayer			-Jens
+	Lore/RPG-Elemente 		-Daniel
+
+
+Einarbeitung:
+	Network				-Jens, Daniel
+	GUI - eigene			-Helge, Daniel
+	GUI - JME			-Jens, Thomas
+		-Blender		-Pokémon 
+
+
+LIMIT: Fertig bis Master (zumindest bevor wir Enkel haben...)
