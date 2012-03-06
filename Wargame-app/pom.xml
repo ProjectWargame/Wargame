@@ -8,6 +8,122 @@
   <name>Wargame-app</name>
   <url>http://maven.apache.org</url>
   <dependencies>
+
+        <!-- JMonkey dependencies  -->
+
+        <dependency>
+            <groupId>com.jmonkeyengine</groupId>
+            <artifactId>jmonkey</artifactId>
+            <version>3.alpha1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.jmonkeyengine.lib</groupId>
+            <artifactId>j-ogg-oggd</artifactId>
+            <version>3.alpha1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.jmonkeyengine.lib</groupId>
+            <artifactId>j-ogg-vorbisd</artifactId>
+            <version>3.alpha1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.jmonkeyengine.lib</groupId>
+            <artifactId>jbullet</artifactId>
+            <version>3.alpha1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.jmonkeyengine.lib</groupId>
+            <artifactId>jheora-debug</artifactId>
+            <version>3.alpha1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.jmonkeyengine.lib</groupId>
+            <artifactId>jinput</artifactId>
+            <version>3.alpha1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.jmonkeyengine.lib</groupId>
+            <artifactId>jogl-native</artifactId>
+            <version>3.alpha1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.jmonkeyengine.lib</groupId>
+            <artifactId>lwgl-native</artifactId>
+            <version>3.alpha1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.jmonkeyengine.lib</groupId>
+            <artifactId>joal-native</artifactId>
+            <version>3.alpha1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.jmonkeyengine.lib</groupId>
+            <artifactId>joal</artifactId>
+            <version>3.alpha1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.jmonkeyengine.lib</groupId>
+            <artifactId>jogl</artifactId>
+            <version>3.alpha1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.jmonkeyengine.lib</groupId>
+            <artifactId>lwjgl</artifactId>
+            <version>3.alpha1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.jmonkeyengine.lib</groupId>
+            <artifactId>nifty</artifactId>
+            <version>3.alpha1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.jmonkeyengine.lib</groupId>
+            <artifactId>nifty-default-controls</artifactId>
+            <version>3.alpha1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.jmonkeyengine.lib</groupId>
+            <artifactId>nifty-style-black</artifactId>
+            <version>3.alpha1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.jmonkeyengine.lib</groupId>
+            <artifactId>stack-alloc</artifactId>
+            <version>3.alpha1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.jmonkeyengine.lib</groupId>
+            <artifactId>vecmath</artifactId>
+            <version>3.alpha1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.jmonkeyengine.lib</groupId>
+            <artifactId>swing-layout</artifactId>
+            <version>3.alpha1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>xpp3</groupId>
+            <artifactId>xpp3</artifactId>
+            <version>1.1.4c</version>
+        </dependency>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
@@ -15,4 +131,21 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <!-- 
+  <build>
+  	<plugins>
+      <plugin>
+        <version>2.3.1</version>
+        <executions>
+          <execution>
+            <id>default-jar</id>
+            <phase>package</phase>
+            <goals>
+              <goal>jar</goal>
+            </goals>
+            <configuration>
+      </plugin>
+  	</plugins>
+  </build>
+   -->
 </project>

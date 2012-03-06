@@ -3,3 +3,5 @@ target/
 .classpath
 .settings
 .project
+lwjgl64.dll
+OpenAL64.dll
