@@ -1,0 +1,32 @@
+Herzlich Willkommen zu "Wie installiere ich Maven so dass es von meine Kommandozeile aus laeuft?".
+
+Zu dieser Frage haben wir heute unsern Special Guest Shukk Nooriss eingeladen.
+Shukk, was ist der erste Schritt.
+
+- Also mein Junge, geh erstmal hierhin und saug das:
+http://www.apache.org/dyn/closer.cgi/maven/binaries/apache-maven-3.0.4-bin.zip
+
+Jo danke Shukk, hab ich getan
+
+- Dann drueck mal die Windowstast UND die Pausetaste
+- Waehle dann  "Erweiterte Systemeinstellungen" und dort ist ganz unten ein Button "Umgebungsvariablen"
+
+Ja ist er.
+
+- Dann drueck endlich drauf du Nase!
+
+Ok und jetzt?
+
+- Jetzt ueberpruefen wir erstmal, ob du eine Variable in den SYSTEMVARIABLEN namens JAVA_HOME hast
+
+Und wenn nicht?
+
+- Dann stirb oder lad dir noch schnell das JDK runter trage den Pfad dorthin in die neu erstellte JAVA_HOME ein.
+- Dann machst du eine Variable M2_HOME zu deinem Mavenordner.
+- Nun muessen wir nur noch die Variable Path ergaenzen um "; %M2_HOMe%/bin" bzw das gleiche mit ";%JAVA_HOME%/bin" wenn du die doch nicht hattest.
+- Zum ueberpruefen der Pfade: Windowstaste + R, CMD, und dort einfach "path" eingeben
+
+Danke Shukk und was jetzt?
+
+&^RAS(*DUAISJODKLAJSD R O U N D H O U S E T I C K ojahskdhaskljdhajsf
+Schiewuschdoingratterdrosselbambadaengrummsfurtz
