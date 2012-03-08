@@ -1,0 +1,4 @@
+Die verschiedenen Farben sind die verschiedenen Spieler. Die Symbole sind die Ebenenkodierung, z.b. Quadrat = befindet sich in Ebene 5 = Himmel, Kreis = Ebene 1 = Unter Tage.
+Außerdem werden Einheiten auf dem gleichen Feld nur durch Ebene unterscheidbar durch Nebeneinandereinfuegen der Sybole ermoeglicht. Wenn man zu nah in die Map reinzoomt, ist dies nicht mehr moeglich, deswegen in diesem Fall einfach Uebereinanderzeichnen.
+
+Ansonsten Mouseover mit Einheitendetails.
