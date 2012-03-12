@@ -1,0 +1,177 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>New Sheet</title>
+<style>
+	* { font-family: Verdana, Arial, Helvetica, sans-serif; border-color: #FFFFFF;}
+	label { cursor: text; clear: both; display: block; }
+	li { padding: 10px; margin: 2px; list-style: none none; -moz-border-radius: 10px; border-radius: 10px; }
+	ul { margin: 2px 2px 2px 15px; padding: 5px; }
+	ul.top, ul.topnocolors { margin: 0; border-color: #FFFFFF; }
+	ul.topnocolors li{ border: 2px solid #999999; }
+	ul.top li{ border: 2px solid white; }
+	a.anchor { background-color:#FFFFFF; padding: 2px 5px; color: #006699; -moz-border-radius: 2px; border-radius: 2px; }
+	a.anchor:hover { background-color:#006699; color: #ffffff; }
+	a.link { background-color:#FFFFFF; padding: 2px; color: #006699; }
+	a.link:hover { background-color:#006699; color: #ffffff; }
+	.parentLabel { border: 1px outset; float: left; clear: both; padding: 2px 5px; font-size: 80%; -moz-border-radius: 3px; border-radius: 3px; }
+	.directionalLines { padding: 2px; font-size: 80%;}
+	.directionalLines a { margin-right: 4px; border: 1px outset; text-decoration: none; padding: 2px 5px; -moz-border-radius: 3px; border-radius: 3px; }
+	.footer { font-size: 80%; color: #CCCCCC; padding-top: 5px; margin-top: 5px; border-top: 2px solid #CCCCCC;}
+</style>
+</head>
+<body><ul class="top">
+  <li id="1" style="background-color: #ffff66; color: #333333;" pid="0">
+    <label>
+      <a name="1"/>
+      <a>Beginn einer Kampfrunde</a>
+    </label>
+    <ul>
+      <li id="2" style="background-color: #bfff66; color: #333333;" pid="1">
+        <label>
+          <a name="2"/>
+          <a>Die Initatitivwerte werden mit Modifikationen aus der aktuelle Spielsituation berechnet</a>
+        </label>
+        <ul>
+          <li id="3" style="background-color: #7fff66; color: #333333;" pid="2">
+            <label>
+              <a name="3"/>
+              <a>Hat eine Einheit einen höehere Initiativwert &gt; 0?</a>
+            </label>
+            <ul>
+              <li id="4" style="background-color: #66ff8c; color: #333333;" pid="3">
+                <div class="parentLabel">└ Ja</div>
+                <label>
+                  <a name="4"/>
+                  Hat eine Einheit höheren
+                  <br/>
+                  Initiativwert größer als die anderen?
+                </label>
+                <ul>
+                  <li id="5" style="background-color: #66ffcb; color: #333333;" pid="4">
+                    <div class="parentLabel">└ Ja</div>
+                    <label>
+                      <a name="5"/>
+                      Hat diese Einheit noch
+                      <br/>
+                      Anrgiffe für diese Runde?
+                    </label>
+                    <ul>
+                      <li id="8" style="background-color: #66f3ff; color: #333333;" pid="5">
+                        <div class="parentLabel">└ Ja</div>
+                        <label>
+                          <a name="8"/>
+                          Diese Einheit greitt an.
+                          <br/>
+                          Fügt  Schaden zu.
+                          <br/>
+                          Reduziere EI der Einheit um 10.
+                          <br/>
+                          Reduziere Angriffe um 1.
+                          <br/>
+                          Berechne die neuen modifizierten Initiativwerte.
+                        </label>
+                        <div class="directionalLines">
+                          <a href="#3" class="anchor">-&gt; t einen höehere Initiativwert &gt; 0?&amp;hellip;</a>
+                        </div>
+                      </li>
+                      <li id="10" style="background-color: #66f3ff; color: #333333;" pid="5">
+                        <div class="parentLabel">└ Nein</div>
+                        <label>
+                          <a name="10"/>
+                          Verringere EI.
+                          <br/>
+                          Berechne die neuen modifizierten Inititivwerte.
+                          <br/>
+                          EVENTUELL AUCH EINFACH AUF MIN SETZEN.
+                        </label>
+                        <div class="directionalLines">
+                          <a href="#3" class="anchor">-&gt; t einen höehere Initiativwert &gt; 0?&amp;hellip;</a>
+                        </div>
+                      </li>
+                    </ul>
+                  </li>
+                  <li id="7" style="background-color: #66ffcb; color: #333333;" pid="4">
+                    <div class="parentLabel">└ Nein</div>
+                    <label>
+                      <a name="7"/>
+                      <a>Sind die Einheiten mit den höchsten Initiativwerten in einer Fraktion?</a>
+                    </label>
+                    <ul>
+                      <li id="11" style="background-color: #66f3ff; color: #333333;" pid="7">
+                        <div class="parentLabel">└ Ja</div>
+                        <label>
+                          <a name="11"/>
+                          Diese Einheiten greifen an.
+                          <br/>
+                          Fügen Schaden zu.
+                          <br/>
+                          Reduziere den EI der Einheiten um 10.
+                          <br/>
+                          Reduziere die Angruffe um 1.
+                          <br/>
+                          Berechne die neuen modifizierten Initativwerte.
+                        </label>
+                        <div class="directionalLines">
+                          <a href="#3" class="anchor">-&gt; t einen höehere Initiativwert &gt; 0?&amp;hellip;</a>
+                        </div>
+                      </li>
+                      <li id="12" style="background-color: #66f3ff; color: #333333;" pid="7">
+                        <div class="parentLabel">└ Nein</div>
+                        <label>
+                          <a name="12"/>
+                          Beide Parteien greifen simultan an.
+                          <br/>
+                          Berechne den SChaden, den die Parteien bei AKTUELLER (vor dem Kampf) Truppenstärke verursachen würden und füge ihn zu.
+                          <br/>
+                          Reduziere die EI aller Angreifer dieser Runde um 10.
+                          <br/>
+                          Reduziere die Angriffe aller Angreifer um 1.
+                          <br/>
+                          Berechne neue modifizierte Initiativwerte.
+                        </label>
+                        <div class="directionalLines">
+                          <a href="#3" class="anchor">-&gt; t einen höehere Initiativwert &gt; 0?&amp;hellip;</a>
+                        </div>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li id="6" style="background-color: #66ff8c; color: #333333;" pid="3">
+                <div class="parentLabel">└ Nein</div>
+                <label>
+                  <a name="6"/>
+                  <a>Hat eine Einheit noch Angriffe für diese Runde?</a>
+                </label>
+                <ul>
+                  <li id="13" style="background-color: #66ffcb; color: #333333;" pid="6">
+                    <div class="parentLabel">└ Ja</div>
+                    <label>
+                      <a name="13"/>
+                      <a>Setze die EI auf die Ursprungswerte.</a>
+                    </label>
+                    <div class="directionalLines">
+                      <a href="#1" class="anchor">-&gt; mpfrunde&amp;hellip;</a>
+                    </div>
+                  </li>
+                  <li id="14" style="background-color: #66ffcb; color: #333333;" pid="6">
+                    <div class="parentLabel">└ Nein</div>
+                    <label>
+                      <a name="14"/>
+                      <a>ENDE</a>
+                    </label>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+<div class="footer">This outline was generated with <a href="http://bubbl.us" target="_blank" class="link">bubbl.us</a></div>
+</body>
+</html>

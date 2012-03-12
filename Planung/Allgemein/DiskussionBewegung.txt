@@ -1,0 +1,6 @@
+Verschieden Ideen zur Bewegung:
+
+Helge-Methode: Reihenfolge fuer Bewegung, d.h. eine Einheit zieht immer bis an ihr Ziel bzw. sie aufgehalten wird, bevor die naechste zieht.
+
+
+Jens-Methode: Einheiten ziehen nicht immer bis ans Ende, sondern mehr wie bei Kampfrunde: Angriff durch Spieleraktion dort ersetzen und dann fuer x EI um y Felder bewegen, x<=10.
