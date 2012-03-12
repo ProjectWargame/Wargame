@@ -6,3 +6,4 @@ Beim letzten Mal hatten wir einen Sonntag, deswegen schlage ich vor, dass die na
 Ansonsten hier drunter bitte individuelle, nicht anonyme Vorschlaege schreiben.
 
 Jens: Sonntag
+Thomas: Wochenenden sind an sich sehr praktisch da bald unter der woche eh wenig zeit sein wird
