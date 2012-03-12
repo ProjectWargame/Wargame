@@ -1,3 +1,8 @@
+Fraktion 1 = Rittertum
+Fraktion 2 = Orks
+Fraktion 3 = Bestien
+
+
 Aufbereitung:
  -wie man lustig ist, aber grafisch
 	Bedienung - Usability		-Thomas
