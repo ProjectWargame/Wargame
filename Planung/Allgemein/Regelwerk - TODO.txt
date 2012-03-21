@@ -1,0 +1,41 @@
+Offene Aufgaben:
+
+- Geländetypen ausarbeiten und ein vernünftiges System zur Veränderung der Bewegungskosten(von der Größe abhängig?) finden.
+
+- Bewegungsregeln verfeinern und für Flugeinheiten ausarbeiten (ein Gleiter sollte sich nicht auf der stelle drehen können) und ins regelwerk einarbeiten.
+
+- Sichteweite und Sichtfeld (wie kann ich über Klippen kucken?) ausarbeiten und ins Regelwerk einarbeiten.
+
+- (Daniel) Moral ausarbeiten und ins Regelwerk einbinden
+
+- Formationen für Einheiten ausarbeiten und ins Regelwerk integrieren
+
+- (Helge) Zugabfolge ausarbeiten (und Verbände) und ins Regelwerk einbinden
+
+- (Helge) Armeestruktur (inkl. Anschließen von Einheiten und ähnlichem)
+
+- (Helge) Aufbau von Schlachtszenarien (inkl. Besonderheiten wie etwa Reserven)
+
+- Kriegsgeräte (Kanonen und Katapulte) ausarbeiten und ins Regelwerk einbinden (Vielleicht als eine dem Waffenteam angeschloßene Einheit?)
+
+- Sonstige Gegenstände (Accessoires und Verbrauchsgegenstände)
+
+- Rgeln für Fahrzeuge und mechanische Einheiten (Kanonen als mechanische Einheit?, Strukturpunkte?...?) 
+
+- Interaktionen mit der Umgebung als Aktion rralisieren (verschanzen im Gebäude, Hebel betätigen, etc.)
+
+- weitere Offene Aufgaben finden und Probleme lösen!
+
+
+
+
+Probleme:
+
+- Ziele von Fähigkeiten(Selbst,Umfeld,irgendeine Einheit irgendwo auf der Karte,...) nicht klar definiert
+
+- Kavallerie als besondere Einheit betrachten oder einfach als schneller soldat mit mehr Lebenspunkten und einigen zusätzlichen Talenten?
+
+- mehr Mögliche Auswirkungen von Effekten, damit sie alle in der implementierung berücksichtigt werden können. (z.B. Kampfverbände auf entfernung Gründen und komandieren)
+
+- Bewegung von Einheiten, die mehr als 1 Feld einnehmen?
+
