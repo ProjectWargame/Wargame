@@ -1,0 +1,15 @@
+-ersetze RD mit Waffenschaden boni
+
+
+-Rüstungsbäume
+-Waffenbäume
+
+
+-restliche Helden
+
+
+-schwere Flugeinheiten
+
+
+-Größe der Einheitenverbände
+  GEV +, ++
