@@ -1,6 +1,6 @@
 Offene Aufgaben:
 
-- Geländetypen ausarbeiten und ein vernünftiges System zur Veränderung der Bewegungskosten(von der Größe abhängig?) finden.
+- (Daniel) Geländetypen ausarbeiten und ein vernünftiges System zur Veränderung der Bewegungskosten(von der Größe abhängig?) finden.
 
 - Bewegungsregeln verfeinern und für Flugeinheiten ausarbeiten (ein Gleiter sollte sich nicht auf der stelle drehen können) und ins regelwerk einarbeiten.
 
@@ -23,6 +23,8 @@ Offene Aufgaben:
 - Rgeln für Fahrzeuge und mechanische Einheiten (Kanonen als mechanische Einheit?, Strukturpunkte?...?) 
 
 - Interaktionen mit der Umgebung als Aktion rralisieren (verschanzen im Gebäude, Hebel betätigen, etc.)
+
+- Level und Erfahrungssystem ausarbeiten/verfeinern und ins Regelwerk integrieren.
 
 - weitere Offene Aufgaben finden und Probleme lösen!
 
