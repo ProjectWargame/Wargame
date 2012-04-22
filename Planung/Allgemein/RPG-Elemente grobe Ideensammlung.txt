@@ -1,5 +1,6 @@
 alle Pluse sind plus eins
-[1:37:59 PM] Daniel: jede Einheit hat Startwerte von KG/RD/Init
+[1:37:59 PM] Daniel: jede Einheit hat Startwerte von 
+KG( + 1)/RD( + 1)/Init ( + x )/MB (+ 10)/Leben (+ 1)/Bewegugstempo
 [1:38:19 PM] Daniel: Und man kann beim Levelaufstieg jedesmal einen Punkt verteilen
 [1:38:42 PM] Daniel: und deine Gegner sehen nicht, welche Werte du wie gesteigert hast
 [1:38:53 PM] Daniel: nur deine Waffen können angesehen werden
